@@ -335,7 +335,7 @@ class _MathFieldState extends State<MathField> with TickerProviderStateMixin {
       },
     );
 
-    Overlay.of(context).insert(_overlayEntry!);
+    Overlay.of(context)?.insert(_overlayEntry!);
   }
 
   void _submit() {
